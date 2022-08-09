@@ -22,6 +22,7 @@
 - name: "Does Wiki.js directory exist?"
   file:
     path: "{{ wikijs_download_dest }}"
+    mode: 0640
     state: directory
 
 - name: Download and extract Wiki.js
