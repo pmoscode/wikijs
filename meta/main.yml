@@ -15,7 +15,7 @@ galaxy_info:
     - name: "Debian"
       versions:
         - buster
-        - bulleyes
+        - bullseye
 
   galaxy_tags:
     - web
